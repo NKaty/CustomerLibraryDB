@@ -56,5 +56,25 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\Stored Procedures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\Notes.sql" />
+    <Build Include="dbo\Tables\Customers.sql" />
+    <Build Include="dbo\Tables\Addresses.sql" />
+    <Build Include="dbo\Stored Procedures\Notes_Update.sql" />
+    <Build Include="dbo\Stored Procedures\Notes_Select.sql" />
+    <Build Include="dbo\Stored Procedures\Notes_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\Notes_Delete.sql" />
+    <Build Include="dbo\Stored Procedures\Customers_Update.sql" />
+    <Build Include="dbo\Stored Procedures\Customers_Select.sql" />
+    <Build Include="dbo\Stored Procedures\Customers_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\Customers_Delete.sql" />
+    <Build Include="dbo\Stored Procedures\Addresses_Update.sql" />
+    <Build Include="dbo\Stored Procedures\Addresses_Select.sql" />
+    <Build Include="dbo\Stored Procedures\Addresses_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\Addresses_Delete.sql" />
   </ItemGroup>
 </Project>
