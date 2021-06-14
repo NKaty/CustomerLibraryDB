@@ -6,7 +6,7 @@
     <Name>CustomerLibrary.Database</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{8b67847f-227c-4fd2-8b78-e859e5db5d4a}</ProjectGuid>
+    <ProjectGuid>{e50cea56-6297-43f1-9e26-150df97c8420}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
